@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+  <model name='schonherz_ar'>
+  
+    <include>
+      <uri>model://schonherz</uri>
+    </include>
+
+    <include>
+      <uri>model://ar_codes</uri>
+      <pose>0.5 0 0 0 0 0</pose>
+    </include>
+
+  </model>
+</sdf>
