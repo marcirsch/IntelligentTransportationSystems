@@ -11,7 +11,7 @@ class ScalingMode(enum.Enum):
 
 ## Constant parameters
 ARUCO_PARAMETERS = aruco.DetectorParameters_create()
-ARUCO_DICT = aruco.Dictionary_get(aruco.DICT_6X6_1000)
+ARUCO_DICT = aruco.Dictionary_get(aruco.DICT_4X4_100)
 
 
 SCALING_PERCENT = 40
