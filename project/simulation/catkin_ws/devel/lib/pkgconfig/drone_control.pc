@@ -1,0 +1,8 @@
+prefix=/home/marcirsch/IntelligentTransportationSystems/project/simulation/catkin_ws/devel
+
+Name: drone_control
+Description: Description of drone_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/marcirsch/IntelligentTransportationSystems/project/simulation/catkin_ws/devel/lib 
+Requires: 

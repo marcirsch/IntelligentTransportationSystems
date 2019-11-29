@@ -68,7 +68,7 @@ set(schonherz_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(schonherz_SOURCE_PREFIX /home/marcirsch/IntelligentTransportationSystems/project/simulation/catkin_ws/src/schonherz)
-  set(schonherz_DEVEL_PREFIX /home/marcirsch/IntelligentTransportationSystems/project/simulation/catkin_ws/devel/.private/schonherz)
+  set(schonherz_DEVEL_PREFIX /home/marcirsch/IntelligentTransportationSystems/project/simulation/catkin_ws/devel)
   set(schonherz_INSTALL_PREFIX "")
   set(schonherz_PREFIX ${schonherz_DEVEL_PREFIX})
 else()
@@ -123,6 +123,29 @@ foreach(library ${libraries})
     list(APPEND schonherz_LIBRARIES ${library})
   elseif(${library} MATCHES "^-l")
     list(APPEND schonherz_LIBRARIES ${library})
+  elseif(${library} MATCHES "^-")
+    # This is a linker flag/option (like -pthread)
+    # There's no standard variable for these, so create an interface library to hold it
+    if(NOT schonherz_NUM_DUMMY_TARGETS)
+      set(schonherz_NUM_DUMMY_TARGETS 0)
+    endif()
+    # Make sure the target name is unique
+    set(interface_target_name "catkin::schonherz::wrapped-linker-option${schonherz_NUM_DUMMY_TARGETS}")
+    while(TARGET "${interface_target_name}")
+      math(EXPR schonherz_NUM_DUMMY_TARGETS "${schonherz_NUM_DUMMY_TARGETS}+1")
+      set(interface_target_name "catkin::schonherz::wrapped-linker-option${schonherz_NUM_DUMMY_TARGETS}")
+    endwhile()
+    add_library("${interface_target_name}" INTERFACE IMPORTED)
+    if("${CMAKE_VERSION}" VERSION_LESS "3.13.0")
+      set_property(
+        TARGET
+        "${interface_target_name}"
+        APPEND PROPERTY
+        INTERFACE_LINK_LIBRARIES "${library}")
+    else()
+      target_link_options("${interface_target_name}" INTERFACE "${library}")
+    endif()
+    list(APPEND schonherz_LIBRARIES "${interface_target_name}")
   elseif(TARGET ${library})
     list(APPEND schonherz_LIBRARIES ${library})
   elseif(IS_ABSOLUTE ${library})
@@ -131,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/marcirsch/IntelligentTransportationSystems/project/simulation/catkin_ws/install/lib;/home/marcirsch/IntelligentTransportationSystems/project/simulation/catkin_ws/devel/lib;/home/marcirsch/IntelligentTransportationSystems/project/simulation/sandbox/mybot_ws/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/marcirsch/IntelligentTransportationSystems/project/simulation/catkin_ws/install/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

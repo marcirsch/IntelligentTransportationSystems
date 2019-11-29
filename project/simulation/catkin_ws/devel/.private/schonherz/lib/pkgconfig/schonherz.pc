@@ -1,8 +1,0 @@
-prefix=/home/marcirsch/IntelligentTransportationSystems/project/simulation/catkin_ws/devel/.private/schonherz
-
-Name: schonherz
-Description: Description of schonherz
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/marcirsch/IntelligentTransportationSystems/project/simulation/catkin_ws/devel/.private/schonherz/lib 
-Requires: 
