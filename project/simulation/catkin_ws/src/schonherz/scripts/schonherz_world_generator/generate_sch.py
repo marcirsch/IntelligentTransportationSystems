@@ -1,8 +1,7 @@
-AR_X_OFFSET = -10
-AR_Y_OFFSET = -15
+AR_X_OFFSET = 0
+AR_Y_OFFSET = -21
 AR_Z_OFFSET = 10
-AR_DISTANCE = 5
-
+AR_DISTANCE = 6
 
 def write_base(f):
     f.write("""<?xml version="1.0" ?>
@@ -36,11 +35,12 @@ def write_sch(f):
 
 def generate_ar_codes(f):
     ar_cntr = 0
-    for floor in range(10):
+    for floor in range(1,5):
 
         z_offset = AR_Z_OFFSET + AR_DISTANCE*floor
-        for row in range(7):
-            name = str(ar_cntr).zfill(5)
+        for row in range(1,7):
+            name = "marker" + str(floor) + str(row)
+            #name = str(ar_cntr).zfill(5)
             print(name)
             ar_cntr += 1
             

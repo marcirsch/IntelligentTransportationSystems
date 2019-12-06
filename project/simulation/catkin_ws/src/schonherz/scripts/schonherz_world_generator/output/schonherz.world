@@ -19,353 +19,123 @@
       <pose>-10.5 0 0 0 0 0</pose>
     </include>
         <include>
-            <uri>model://00000</uri>
-            <pose>-10 -15 10 0 0 0</pose>
+            <uri>model://marker11</uri>
+            <pose>0 -15 16 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00001</uri>
-            <pose>-10 -10 10 0 0 0</pose>
+            <uri>model://marker12</uri>
+            <pose>0 -9 16 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00002</uri>
-            <pose>-10 -5 10 0 0 0</pose>
+            <uri>model://marker13</uri>
+            <pose>0 -3 16 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00003</uri>
-            <pose>-10 0 10 0 0 0</pose>
+            <uri>model://marker14</uri>
+            <pose>0 3 16 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00004</uri>
-            <pose>-10 5 10 0 0 0</pose>
+            <uri>model://marker15</uri>
+            <pose>0 9 16 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00005</uri>
-            <pose>-10 10 10 0 0 0</pose>
+            <uri>model://marker16</uri>
+            <pose>0 15 16 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00006</uri>
-            <pose>-10 15 10 0 0 0</pose>
+            <uri>model://marker21</uri>
+            <pose>0 -15 22 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00007</uri>
-            <pose>-10 -15 15 0 0 0</pose>
+            <uri>model://marker22</uri>
+            <pose>0 -9 22 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00008</uri>
-            <pose>-10 -10 15 0 0 0</pose>
+            <uri>model://marker23</uri>
+            <pose>0 -3 22 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00009</uri>
-            <pose>-10 -5 15 0 0 0</pose>
+            <uri>model://marker24</uri>
+            <pose>0 3 22 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00010</uri>
-            <pose>-10 0 15 0 0 0</pose>
+            <uri>model://marker25</uri>
+            <pose>0 9 22 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00011</uri>
-            <pose>-10 5 15 0 0 0</pose>
+            <uri>model://marker26</uri>
+            <pose>0 15 22 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00012</uri>
-            <pose>-10 10 15 0 0 0</pose>
+            <uri>model://marker31</uri>
+            <pose>0 -15 28 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00013</uri>
-            <pose>-10 15 15 0 0 0</pose>
+            <uri>model://marker32</uri>
+            <pose>0 -9 28 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00014</uri>
-            <pose>-10 -15 20 0 0 0</pose>
+            <uri>model://marker33</uri>
+            <pose>0 -3 28 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00015</uri>
-            <pose>-10 -10 20 0 0 0</pose>
+            <uri>model://marker34</uri>
+            <pose>0 3 28 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00016</uri>
-            <pose>-10 -5 20 0 0 0</pose>
+            <uri>model://marker35</uri>
+            <pose>0 9 28 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00017</uri>
-            <pose>-10 0 20 0 0 0</pose>
+            <uri>model://marker36</uri>
+            <pose>0 15 28 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00018</uri>
-            <pose>-10 5 20 0 0 0</pose>
+            <uri>model://marker41</uri>
+            <pose>0 -15 34 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00019</uri>
-            <pose>-10 10 20 0 0 0</pose>
+            <uri>model://marker42</uri>
+            <pose>0 -9 34 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00020</uri>
-            <pose>-10 15 20 0 0 0</pose>
+            <uri>model://marker43</uri>
+            <pose>0 -3 34 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00021</uri>
-            <pose>-10 -15 25 0 0 0</pose>
+            <uri>model://marker44</uri>
+            <pose>0 3 34 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00022</uri>
-            <pose>-10 -10 25 0 0 0</pose>
+            <uri>model://marker45</uri>
+            <pose>0 9 34 0 0 0</pose>
         </include>
             
         <include>
-            <uri>model://00023</uri>
-            <pose>-10 -5 25 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00024</uri>
-            <pose>-10 0 25 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00025</uri>
-            <pose>-10 5 25 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00026</uri>
-            <pose>-10 10 25 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00027</uri>
-            <pose>-10 15 25 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00028</uri>
-            <pose>-10 -15 30 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00029</uri>
-            <pose>-10 -10 30 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00030</uri>
-            <pose>-10 -5 30 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00031</uri>
-            <pose>-10 0 30 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00032</uri>
-            <pose>-10 5 30 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00033</uri>
-            <pose>-10 10 30 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00034</uri>
-            <pose>-10 15 30 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00035</uri>
-            <pose>-10 -15 35 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00036</uri>
-            <pose>-10 -10 35 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00037</uri>
-            <pose>-10 -5 35 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00038</uri>
-            <pose>-10 0 35 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00039</uri>
-            <pose>-10 5 35 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00040</uri>
-            <pose>-10 10 35 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00041</uri>
-            <pose>-10 15 35 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00042</uri>
-            <pose>-10 -15 40 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00043</uri>
-            <pose>-10 -10 40 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00044</uri>
-            <pose>-10 -5 40 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00045</uri>
-            <pose>-10 0 40 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00046</uri>
-            <pose>-10 5 40 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00047</uri>
-            <pose>-10 10 40 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00048</uri>
-            <pose>-10 15 40 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00049</uri>
-            <pose>-10 -15 45 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00050</uri>
-            <pose>-10 -10 45 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00051</uri>
-            <pose>-10 -5 45 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00052</uri>
-            <pose>-10 0 45 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00053</uri>
-            <pose>-10 5 45 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00054</uri>
-            <pose>-10 10 45 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00055</uri>
-            <pose>-10 15 45 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00056</uri>
-            <pose>-10 -15 50 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00057</uri>
-            <pose>-10 -10 50 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00058</uri>
-            <pose>-10 -5 50 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00059</uri>
-            <pose>-10 0 50 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00060</uri>
-            <pose>-10 5 50 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00061</uri>
-            <pose>-10 10 50 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00062</uri>
-            <pose>-10 15 50 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00063</uri>
-            <pose>-10 -15 55 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00064</uri>
-            <pose>-10 -10 55 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00065</uri>
-            <pose>-10 -5 55 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00066</uri>
-            <pose>-10 0 55 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00067</uri>
-            <pose>-10 5 55 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00068</uri>
-            <pose>-10 10 55 0 0 0</pose>
-        </include>
-            
-        <include>
-            <uri>model://00069</uri>
-            <pose>-10 15 55 0 0 0</pose>
+            <uri>model://marker46</uri>
+            <pose>0 15 34 0 0 0</pose>
         </include>
             
   </world>
